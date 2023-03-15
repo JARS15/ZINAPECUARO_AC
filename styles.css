@@ -1,0 +1,561 @@
+/* importando Paleta de colores */
+/*------------------------------------------------*/
+/* FIN Paleta de colores */
+/* FIN de iportacion importando Paleta de colores */
+/* importando Paleta de colores */
+/*--------------------------------------------------------------------*/
+html {
+  height: 100%;
+  font-size: 16px;
+}
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 12px;
+  }
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body *::placeholder {
+  color: lightgray !important;
+  font-family: "Font Awesome 5 Free", Roboto, "Helvetica Neue", sans-serif !important;
+  font-weight: 900;
+  font-size: 0.9rem !important;
+  line-height: 1rem !important;
+  text-align: justify;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #017436 !important;
+}
+/* Fuentes */
+.fuente-roboto-1 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 2.5rem;
+  line-height: 2.6rem;
+}
+.fuente-roboto-2 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+  line-height: 2.1rem;
+}
+.fuente-roboto-3 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+}
+.fuente-roboto-4 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  line-height: 1.1rem;
+}
+.fuente-roboto-5 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+.fuente-roboto-6 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 0.7rem;
+  line-height: 0.8rem;
+}
+.fuente-roboto-7 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 0.6rem;
+  line-height: 0.6rem;
+}
+.color-a2 {
+  color: #025035 !important;
+}
+.color-b2 {
+  color: #161D22 !important;
+}
+.color-c2 {
+  color: #002B55 !important;
+}
+.color-d2 {
+  color: #AD3C16 !important;
+}
+.color-z2 {
+  color: #fff !important;
+}
+.color-f2 {
+  color: #871612 !important;
+}
+/* FIN Fuentes */
+/* Fondos */
+.fondo-color-a1 {
+  background-color: #017436 !important;
+}
+.fondo-color-a2 {
+  background-color: #025035 !important;
+}
+.fondo-color-a3 {
+  background-color: #67AC86 !important;
+}
+.fondo-color-b1 {
+  background-color: #2D353C !important;
+}
+.fondo-color-b2 {
+  background-color: #161D22 !important;
+}
+.fondo-color-b3 {
+  background-color: #3C4650 !important;
+}
+.fondo-color-c1 {
+  background-color: #0055AA !important;
+}
+.fondo-color-c2 {
+  background-color: #002B55 !important;
+}
+.fondo-color-c3 {
+  background-color: #6699CC !important;
+}
+.fondo-color-d1 {
+  background-color: #E6501E !important;
+}
+.fondo-color-d2 {
+  background-color: #AD3C16 !important;
+}
+.fondo-color-d3 {
+  background-color: #EB734B !important;
+}
+.fondo-color-z1 {
+  background-color: #000 !important;
+}
+.fondo-color-z2 {
+  background-color: #fff !important;
+}
+/* FIN Fondos */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+abbr[title] {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  cursor: help;
+  -webkit-text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
+}
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+ol,
+ul {
+  padding-left: 2rem;
+}
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}
+dt {
+  font-weight: 700;
+}
+dd {
+  margin-bottom: 0.5rem;
+  margin-left: 0;
+}
+blockquote {
+  margin: 0 0 1rem;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+small,
+.small {
+  font-size: 0.875em;
+}
+mark,
+.mark {
+  padding: 0.1875em;
+  background-color: var(--bs-highlight-bg);
+}
+sub,
+sup {
+  position: relative;
+  font-size: 0.75em;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+a {
+  color: var(--bs-link-color);
+}
+a:hover {
+  color: var(--bs-link-hover-color);
+}
+a:not([href]):not([class]),
+a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+.btn {
+  font-weight: 600;
+  padding: 0.875rem 2.5rem;
+  transition: all 0.4s ease-in-out;
+  border-radius: 2rem;
+  border: none;
+}
+.btn-check {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+}
+.btn-check[disabled] + .btn,
+.btn-check:disabled + .btn {
+  pointer-events: none;
+  filter: none;
+  opacity: 0.65;
+}
+.input-group .btn {
+  position: relative;
+  z-index: 2;
+}
+.input-group .btn:focus {
+  z-index: 3;
+}
+/*BOTONES*/
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+    transition: none;
+  }
+}
+.btn-a {
+  background-color: #025035 !important;
+  color: #fff !important;
+}
+.btn-a:hover {
+  background-color: #67AC86 !important;
+  color: #fff !important;
+}
+.btn-a:focus {
+  background-color: #017436 !important;
+  color: #fff !important;
+}
+.btn-b {
+  background-color: #161D22 !important;
+  color: #fff !important;
+}
+.btn-b:hover {
+  background-color: #3C4650 !important;
+  color: #fff !important;
+}
+.btn-b:focus {
+  background-color: #2D353C !important;
+  color: #fff !important;
+}
+.btn-c {
+  background-color: #002B55 !important;
+  color: #fff !important;
+}
+.btn-c:hover {
+  background-color: #fff !important;
+  color: #002B55 !important;
+}
+.btn-c:focus {
+  background-color: #0055AA !important;
+  color: #fff !important;
+}
+.btn-d {
+  background-color: #E6501E !important;
+  color: #fff !important;
+}
+.btn-d:hover {
+  background-color: #fff !important;
+  color: #002B55 !important;
+}
+.btn-d:focus {
+  background-color: #E6501E !important;
+  color: #000 !important;
+}
+.btn-e {
+  background-color: #FFAA00 !important;
+  color: #fff !important;
+}
+.btn-e:hover {
+  background-color: #F08C00 !important;
+  color: #002B55 !important;
+}
+.btn-e:focus {
+  background-color: #FFAA00 !important;
+  color: #000 !important;
+}
+/*fin botones */
+.form-control:focus {
+  box-shadow: 0 5px 15px 0 #000 !important;
+  outline: none;
+}
+.theme-bg-light {
+  background: #fff;
+}
+.theme-bg-dark {
+  background: #017436 !important;
+}
+.theme-bg-primary {
+  background: #871612;
+}
+.theme-bg-light-gradient {
+  background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+}
+#topcontrol {
+  transition: all 0.4s ease-in-out;
+  background: #017436 !important;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  z-index: 30;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  padding-top: 0.5rem;
+  font-weight: 300;
+  font-size: 1rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  #topcontrol {
+    transition: none;
+  }
+}
+#topcontrol:hover {
+  background: #2f334e;
+  color: #fff;
+}
+.border-radius-0 {
+  border-radius: 0;
+}
+.font-style-normal {
+  font-style: normal !important;
+}
+.single-col-max {
+  max-width: 760px;
+}
+.site-logo .logo-text {
+  color: #017436 !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.footer .copyright {
+  font-size: 0.875rem;
+}
+.section-heading {
+  font-size: 2.5rem;
+}
+.section-intro {
+  font-size: 1.25rem;
+}
+.hero-section .headline {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.hero-section .subheadline {
+  font-size: 1.25rem;
+}
+.hero-quotes .quote {
+  position: relative;
+  border-left: 4px solid #871612 !important;
+}
+.hero-quotes .quote:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #871612 !important;
+  position: absolute;
+  bottom: -10px;
+  margin-left: -10px;
+  left: 2rem;
+}
+.hero-quotes .source {
+  vertical-align: middle;
+  color: #000;
+  font-size: 0.875rem;
+}
+.hero-quotes .source-profile {
+  width: 60px;
+  height: 75px;
+}
+.hero-quotes .carousel-indicators {
+  bottom: -4rem;
+}
+.hero-quotes .carousel-indicators li {
+  border: none;
+  background-color: #871612 !important;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.book-cover-holder {
+  position: relative;
+}
+.book-cover-holder .book-badge {
+  position: absolute;
+  right: 0;
+  top: -2rem;
+  width: 120px;
+  height: 120px;
+  background: #871612;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+  padding-top: 34px;
+  font-size: 1.375rem;
+  line-height: 1;
+  font-weight: bold;
+}
+.benefits-section .item-inner {
+  height: 100%;
+}
+.benefits-section .item-icon {
+  font-size: 3rem;
+  color: #002B55 !important;
+}
+.benefits-section .item-heading {
+  font-size: 1.125rem;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.content-section .key-points-list {
+  font-size: 1.125rem;
+}
+.content-section .key-points-list li {
+  margin-bottom: 1rem;
+}
+.content-section .fa-check-circle {
+  color: #871612 !important;
+}
+.audience-section .audience {
+  max-width: 500px;
+}
+.audience-section .item {
+  margin-bottom: 1.5rem;
+}
+.audience-section .item-title {
+  font-size: 1.125rem;
+}
+.audience-section .item-icon {
+  font-size: 1.25rem;
+  color: #871612 !important;
+}
+.reviews-section .item-inner {
+  height: 100%;
+  position: relative;
+}
+.reviews-section .icon-holder {
+  position: absolute;
+  left: 50%;
+  top: -18px;
+  margin-left: -18px;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: #161D22;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 6px;
+}
+.reviews-section .source-profile {
+  width: 70px;
+}
+.reviews-section .source-info {
+  font-size: 0.875rem;
+}
+.author-section {
+  color: #fff;
+}
+.author-section .author-pic {
+  width: 150px;
+  height: 150px;
+}
+.author-section .social-list li {
+  background: rgba(0, 0, 0, 0.1);
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  border-radius: 50%;
+  padding-top: 6px;
+}
+.author-section .social-list li:hover {
+  background: rgba(0, 0, 0, 0.15);
+}
+.author-section .social-list a {
+  color: #fff;
+}
+.theme-bg-primary a.theme-link {
+  color: #fff;
+  text-decoration: underline;
+  -webkit-text-decoration-color: rgba(255, 255, 255, 0.5);
+  text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+.theme-bg-primary a.theme-link:hover {
+  color: #fff;
+  -webkit-text-decoration-color: #fff;
+  text-decoration-color: #fff;
+}
+@media (max-width: 575.98px) {
+  .hero-quotes .quote:after {
+    left: 50%;
+    margin-left: -10px;
+  }
+
+  .reviews-section .source-profile {
+    margin-bottom: 0.5rem;
+  }
+
+  .form-inline .form-control {
+    width: 200px;
+  }
+}
+@media (max-width: 991.98px) {
+  .hero-section .headline {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .hero-section .subheadline {
+    font-size: 1.125rem;
+  }
+
+  .book-cover-holder .book-badge {
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 576px) {
+  .form-inline .form-control {
+    width: 400px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map*/
