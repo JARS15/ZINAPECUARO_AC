@@ -132,6 +132,9 @@ body *::placeholder {
 .fondo-color-z2 {
   background-color: #fff !important;
 }
+.fondo-color-f2 {
+  background-color: #871612 !important;
+}
 /* FIN Fondos */
 p {
   margin-top: 0;
